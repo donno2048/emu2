@@ -89,6 +89,10 @@ The available environment variables are:
                        properly, some other will ignore this and setup the text
                        mode again.
 
+- `EMU_SLOW_FACTOR`    Set a slowing factor, this forces the CPU to take at
+                       least for the given amount of microseconds for every
+                       opcode being executed.
+
 
 Simple Example
 --------------
